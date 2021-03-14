@@ -1,0 +1,138 @@
+#container{
+    display: flex;
+}
+
+
+#option #inserir, #editar, #visualizar {
+    padding: 8px;
+    padding-left: 35px;
+    padding-right: 35px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+#option{
+    margin-top: 100px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+#context{
+    margin-right: 3%;
+    width: 100%;
+}
+
+
+#context #user{
+    display: flex;
+    color: aliceblue;
+    margin-top: 2.5%;
+    margin-bottom: 1%;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    background-color: rgb(85, 85, 250);
+}#perf{
+    text-align: right;
+    margin-left: 65%;
+}
+
+#board{
+    margin-bottom: 3%;
+    border: 1px solid black;
+    border-radius: 35px;
+}
+
+#txt_InsereH{
+    position: relative;
+    bottom: -25px;
+    background-color:white;
+    width: max-content;
+    margin-left: 3%;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-radius: 5px;
+}
+
+#hora{  
+    background-color: rgb(241, 234, 234) ;
+    border-radius: 20px;
+    margin: 1.5%;
+}
+
+#hora button{
+    color: aliceblue;
+    margin-right: 0px;
+    margin-left: 74%;
+    margin-bottom: 20px;
+    height: 30px;
+    width: 130px;
+    background-color: rgb(85, 85, 250);
+    border-radius: 8px;
+}
+
+.txts, #txtData, #txtHoraE, #txtHoraS, #txtJust{ 
+    margin-left: 15px;
+    display: flex;
+    width: 90%;
+}
+
+#lista_Table{
+    background-color: rgb(241, 234, 234) ;
+    border-radius: 20px;
+    margin: 1.5%;
+    padding: 20px;
+}
+
+#txt_ListaH{
+    position: relative;
+    bottom: -25px;
+    background-color:white;
+    width: max-content;
+    margin-left: 3%;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-radius: 5px;
+}
+
+#table{
+    width: 100%;
+    background-color: white;
+}
+
+#table td, tr{
+    text-align: center;
+   margin: 0%;
+    border: 1px solid black;
+}
+
+#legenda{
+    padding-left: 8%;
+    position: relative;
+    top:-20px;
+}
+#legenda div{
+   position: relative;
+   top: -15px;
+}
+#legenda div img{
+    position: relative;
+    top: 5px;
+    margin-left: 10px;
+}
+
+#button {
+    position: relative;
+    left: 70%;
+ 
+}
+#button button{
+    
+    margin: 5px;
+    color: aliceblue;
+    height: 30px;
+    width: 130px;
+    background-color: rgb(85, 85, 250);
+    border-radius: 8px;
+}
