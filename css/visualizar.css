@@ -1,0 +1,32 @@
+.txts, #txtDataI, #txtDataF, #txtJust{ 
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 15px;
+    display: flex;
+    width: 90%;
+}
+
+#actions{
+    margin-top: 1%;
+    margin-left: 78%;
+}
+
+#txtStatus{
+    position: relative;
+    bottom: -25px;
+    background-color:white;
+    width: max-content;
+    margin-left: 3%;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-radius: 5px;
+}
+
+#envcoo{
+    
+    background-color: rgb(241, 234, 234) ;
+    border-radius: 20px;
+    margin: 1.5%;
+    padding: 20px;
+    padding-left: 10%;
+}

@@ -132,7 +132,7 @@
     margin: 5px;
     color: aliceblue;
     height: 30px;
-    width: 130px;
+    width: max-content;
     background-color: rgb(85, 85, 250);
     border-radius: 8px;
 }

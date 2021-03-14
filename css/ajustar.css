@@ -1,0 +1,7 @@
+.txts, #txtDataE, #txtDataS, #txtJust{ 
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 15px;
+    display: flex;
+    width: 90%;
+}

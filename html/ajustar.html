@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="/css/banner.css">
         <link rel="stylesheet" type="text/css" href="/css/comum_IVA.css">
+        <link rel="stylesheet" type="text/css" href="/css/ajustar.css">
         
     </Head>
 
@@ -20,7 +21,7 @@
                 <div id="option">
                     <div id="inserir"><a href="/html/inserir.html">Inserir</a></div>
                     <div id="editar"><a href="/html/ajustar.html">Editar</a></div>
-                    <div id="visualizar"><a href="/html/vizualizar_Horas.html">Visualizar</a></div>
+                    <div id="visualizar"><a href="/html/visualizar_Horas.html">Visualizar</a></div>
                 </div>
                 
                 <div id="context">
@@ -37,28 +38,23 @@
 
                         <div id="hora">
                             <div id="txts" class="txts">
-                                <div id="txtData">
+                                
+                                <div id="txtDataE">
                                     <div>
-                                        <br>*Data</br>
-                                        <input type="date" style="width: 100%;">
+                                        <br>Data Entrada:</br>
+                                        <input type="date" style="width: 100%; border-radius: 5px;">
                                     </div>
                                 </div>
-                                <div id="txtHoraE">
+                                <div id="txtDataS">
                                     <div>
-                                        <br>*Hora Entrada</br>
-                                        <input type="time" style="width: 150%;">
-                                    </div>
-                                </div>
-                                <div id="txtHoraS">
-                                    <div>
-                                        <br>*Hora Saída</br>
-                                        <input type="time"style="width: 150%;">
+                                        <br>Data Saída:</br>
+                                        <input type="date"style="width: 100%; border-radius: 5px;">
                                     </div>
                                 </div>
                                 <div id="txtJust">
                                     <div>
-                                        <br>*Justificativa</br>
-                                        <select style="width: 150%;">
+                                        <br>Justificativa:</br>
+                                        <select style="width: 150%; border-radius: 5px;">
                                             <option value="versionamento">Versionamento</option>
                                             <option value="prod.Conteudo">Prod.Conteúdo</option>
                                             <option value="capacitacao">Capacitação</option>
@@ -68,7 +64,7 @@
                                 </div>
                             </div>
 
-                            <button>Insere Hora</button>
+                            <button>Consulta</button>
 
                         </div>
 
@@ -87,17 +83,17 @@
                                     <td>Opções</td>
                                 </tr>
                                 <tr>
-                                    <td><input type="date"></td>
-                                    <td><input type="time"></td>
-                                    <td><input type="time"></td>
+                                    <td><input type="date" style="border-radius: 5px;"></td>
+                                    <td><input type="time" style="border-radius: 5px;"></td>
+                                    <td><input type="time" style="border-radius: 5px;"></td>
                                     <td>?</td>
-                                    <td><select>
+                                    <td><select style="border-radius: 5px;">
                                         <option value="versionamento">Versionamento</option>
                                             <option value="prod.Conteudo">Prod.Conteúdo</option>
                                             <option value="capacitacao">Capacitação</option>
                                             <option value="Emprestimo">Empréstimo</option>
                                     </select></td>
-                                    <td><img src="/img/editar-icon.png" title="editar-icon"><img src="/img/excluir-icon.png" title="excluir-icon"></td>
+                                    <td><button><img src="/img/editar-icon.png" title="editar-icon"></button><button><img src="/img/excluir-icon.png" title="excluir-icon"></button></td>
                                 </tr>
                                 <tr>
                                     <td>data</td>
@@ -105,7 +101,7 @@
                                     <td>17:00</td>
                                     <td>4</td>
                                     <td>Capacitação</td>
-                                    <td><img src="/img/editar-icon.png" title="editar-icon"><img src="/img/excluir-icon.png" title="excluir-icon"></td></td>
+                                    <td><button><img src="/img/editar-icon.png" title="editar-icon"></button><button><img src="/img/excluir-icon.png" title="excluir-icon"></button></td>
                                 </tr>
                                 <tr>
                                     <td>data</td>
@@ -113,7 +109,7 @@
                                     <td>18:00</td>
                                     <td>5</td>
                                     <td>Capacitação</td>
-                                    <td><img src="/img/editar-icon.png" title="editar-icon"><img src="/img/excluir-icon.png" title="excluir-icon"></td></td>
+                                    <td><button><img src="/img/editar-icon.png" title="editar-icon"></button><button><img src="/img/excluir-icon.png" title="excluir-icon"></button></td>
                                 </tr>
                                 <tr>
                                     <td>data</td>
@@ -121,7 +117,7 @@
                                     <td>17:00</td>
                                     <td>4</td>
                                     <td>Capacitação</td>
-                                    <td><img src="/img/editar-icon.png" title="editar-icon"><img src="/img/excluir-icon.png" title="excluir-icon"></td></td>
+                                    <td><button><img src="/img/editar-icon.png" title="editar-icon"></button><button><img src="/img/excluir-icon.png" title="excluir-icon"></button></td>
                                 </tr>
                                 <tr>
                                     <td></td>
@@ -129,19 +125,20 @@
                                     <td></td>
                                     <td>13</td>
                                     <td>Capacitação</td>
-                                    <td><img src="/img/editar-icon.png" title="editar-icon"><img src="/img/excluir-icon.png" title="excluir-icon"></td></td>
+                                    <td><button><img src="/img/editar-icon.png" title="editar-icon"></button><button><img src="/img/excluir-icon.png" title="excluir-icon"></button></td>
                                 </tr>
                             </table>
                         </div>
 
-                        <div id="Leganda">
+                        <div id="legenda">
                             <h3>Legenda:</h3>
                             <img src="/img/editar-icon.png" title="editar-icon">Editar
                             <img src="/img/excluir-icon.png" title="excluir-icon">Excluir
                         </div>
 
-                        <div id="button"></div>
+                        <div id="button">
                         <button>Voltar</button><button>Enviar para Análise</button>
+                        </div>
                     </div>
                 </div>
             </div>
