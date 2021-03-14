@@ -1,0 +1,15 @@
+#container{
+    display: flex;
+}
+
+
+.txts, #txtData, #txtHoraE, #txtHoraS, #txtJust{ 
+    margin: 15px;
+    display: flex;
+}
+
+#table td, tr{
+    text-align: center;
+   margin: 0%;
+    border: 1px solid black;
+}
