@@ -5,6 +5,9 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="/css/banner.css">
         <link rel="stylesheet" type="text/css" href="/css/comum_IVA.css">
+        <script type="text/javascript" src="/JS/Validaçao.js"></script>
+
+        <title>Inserir horas</title>
         
     </Head>
 
@@ -40,19 +43,19 @@
                                 <div id="txtData">
                                     <div>
                                         <br>*Data:</br>
-                                        <input type="date" style="width: 100%;border-radius: 5px;">
+                                        <input id="DA" type="date" style="width: 100%;border-radius: 5px;">
                                     </div>
                                 </div>
                                 <div id="txtHoraE">
                                     <div>
                                         <br>*Hora Entrada:</br>
-                                        <input type="time" style="width: 150%;border-radius: 5px;">
+                                        <input id="HE" type="time" style="width: 150%;border-radius: 5px;">
                                     </div>
                                 </div>
                                 <div id="txtHoraS">
                                     <div>
                                         <br>*Hora Saída:</br>
-                                        <input type="time"style="width: 150%;border-radius: 5px;">
+                                        <input id="HS" type="time"style="width: 150%;border-radius: 5px;">
                                     </div>
                                 </div>
                                 <div id="txtJust">
@@ -68,7 +71,7 @@
                                 </div>
                             </div>
 
-                            <button>Insere Hora</button>
+                            <button type="button" onclick="validaData(); validaHoraE(); validaHoraS();">Insere Hora</button>
 
                         </div>
 

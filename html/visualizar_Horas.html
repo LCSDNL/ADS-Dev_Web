@@ -6,6 +6,9 @@
         <link rel="stylesheet" type="text/css" href="/css/banner.css">
         <link rel="stylesheet" type="text/css" href="/css/comum_IVA.css">
         <link rel="stylesheet" type="text/css" href="/css/visualizar.css">
+        <script type="text/javascript" src="/JS/Validaçao.js"></script>
+
+        <title>Visualizar horas</title>
 
     </Head>
 
@@ -33,7 +36,7 @@
                     <div id="board">
                         
                         <div id="txt_InsereH">
-                            <h3>Insere Hora</h3>
+                            <h3>Consulta</h3>
                         </div>
 
                         <div id="hora">
@@ -41,13 +44,13 @@
                                 <div id="txtDataI">
                                     <div>
                                         <br>Data Inicio:</br>
-                                        <input type="date" style="width: 100%;border-radius: 5px;">
+                                        <input id="DE" type="date" style="width: 100%;border-radius: 5px;">
                                     </div>
                                 </div>
                                 <div id="txtDataF">
                                     <div>
                                         <br>Data Final:</br>
-                                        <input type="date" style="width: 100%;border-radius: 5px;">
+                                        <input id="DS" type="date" style="width: 100%;border-radius: 5px;">
                                     </div>
                                 </div>
                                 <div id="txtJust">
@@ -63,7 +66,7 @@
                                 </div>
                             </div>
 
-                            <button>Consulta</button>
+                            <button type="button" onclick="validaDataEntrada(); validaDataSaida();">Consulta</button>
 
                         </div>
 
